@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h2 class="logo">My Portfolio</h2>
+
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+
+                <li><a href="#certificates">Certificates</a></li>
+
+                <li><a href="#achievements">Achievements</a></li>
+
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+
+            <button id="menu-btn">☰</button>
+            <button id="dark-mode-btn">
+                🌙 Dark Mode
+            </button>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Hello, I'm Roshani R Savant</h1>
+        <p id="typing-text"></p>
+        <a href="files/Resume.pdf"
+        download
+        class="resume-btn">
+        Download Resume </a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate Computer Science student interested in
+            programming, web development, and problem-solving.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>Library Management System</h3>
+            <p>Built using Java.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Quiz Application</h3>
+            <p>Built using Python.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <ul>
+            <li>C Programming</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form id="contact-form" action="https://formsubmit.co/rose123@gmail.com" method="POST">
+            <input type="hidden"
+                    name="_captcha"
+                    value="false">
+            <input type="text"
+                   id="name"
+                   placeholder="Your Name">
+
+            <input type="email"
+                   id="email"
+                   placeholder="Your Email">
+
+            <textarea
+                id="message"
+                placeholder="Message">
+            </textarea>
+
+            <button type="submit">
+                Send
+            </button>
+        </form>
+    </section>
+    <section id="gallery">
+        <h2>Project Gallery</h2>
+        <div class="gallery">
+            <img src="images/project1.webp">
+
+            <img src="images/project2.png">
+
+            <img src="images/project3.png">
+
+        </div>
+    </section>
+    <section id="certificates">
+
+        <h2>Certificates</h2>
+
+        <div class="project-card">
+
+            <h3>Python Programming</h3>
+
+            <p>Completed Python Course</p>
+
+         </div>
+
+         <div class="project-card">
+
+             <h3>Web Development</h3>
+
+            <p>HTML, CSS, JavaScript</p>
+
+        </div>
+
+    </section>
+    <section id="achievements">
+
+        <h2>Achievements</h2>
+
+        <ul>
+            <li>Participated in Hackathon</li>
+
+            <li>Completed 100+ Coding Problems</li>
+
+            <li>Built Personal Portfolio Website</li>
+
+         </ul>
+
+    </section>
+    <section id="blog">
+        <h2>Blog</h2>
+
+        <div class="project-card">
+            <h3>
+                My Journey Learning Programming
+            </h3>
+            <p>
+                Started learning C and Python...
+            </p>
+        </div>
+
+        <div class="project-card">
+
+            <h3>
+                Building My First Website
+            </h3>
+
+            <p>
+                Learned HTML, CSS and JS...
+            </p>
+
+        </div>
+
+    </section>
+    <section id="visitors">
+        <h2>Visitors</h2>
+        <a href="https://www.hitwebcounter.com/split-pdf" target="_blank" rel="noopener" title="Make Small Pdfs with large">
+        <img src="https://www.hitwebcounter.com/counter/counter.php?page=21502076&amp;style=0024&amp;nbdigits=1&amp;type=page" alt="Make Small Pdfs with large" decoding="async" style="border:0;max-width:100%;height:auto;" />
+        </a>
+    </section>
+    <footer>
+        <p>© 2026 Your Name</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
